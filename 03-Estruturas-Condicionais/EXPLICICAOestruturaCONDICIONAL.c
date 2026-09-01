@@ -33,13 +33,13 @@ ENCADEAMENTO
 se  tiver mais de duas condicoes faz o encadeamento
 todos as condicoes so serao executados se a condicao for verdadeira
 
-if(condição 1) {
+if(condiÃ§Ã£o 1) {
 
 comando 1
 comando 2
 
 }
-else  if (condição 2){
+else  if (condiÃ§Ã£o 2){
 todos as condicoes so serao executados se a condicao for verdadeira
 pode repetir quantas vezes quiser
 
@@ -80,9 +80,9 @@ return 0;
 #include <stdio.h>
 int main (){
     /*
-"Bom dia!" é exibido para qualquer hora entre 0 e 11 (
-"Boa tarde!" é exibido para qualquer hora entre 12 e 17 .
-"Boa noite!" é exibido para qualquer hora entre 18 e 23 .
+"Bom dia!" Ã© exibido para qualquer hora entre 0 e 11 (
+"Boa tarde!" Ã© exibido para qualquer hora entre 12 e 17 .
+"Boa noite!" Ã© exibido para qualquer hora entre 18 e 23 .
 */
 int hora;
 
