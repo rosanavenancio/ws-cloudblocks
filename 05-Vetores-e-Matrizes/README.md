@@ -3,7 +3,7 @@ int main()
 {
     int m, n, i, j;
 
-    // Leitura das dimensıes da matriz
+    // Leitura das dimens√µes da matriz
     printf("Quantas linhas vai ter a matriz? ");
     scanf("%d", &m);
     printf("Quantas colunas vai ter a matriz? ");
@@ -19,13 +19,13 @@ int main()
         }
     }
 
-    // ExibiÁ„o da matriz
+    // Exibi√ß√£o da matriz
     printf("\nMATRIZ DIGITADA:\n");
     for (i = 0; i < m; i++) {
         for (j = 0; j < n; j++) {
-            printf("%d ", mat[i][j]); // EspaÁo entre os elementos
+            printf("%d ", mat[i][j]); // Espa√ßo entre os elementos
         }
-        printf("\n"); // Quebra de linha apÛs cada linha da matriz
+        printf("\n"); // Quebra de linha ap√≥s cada linha da matriz
     }
 
     return 0;
